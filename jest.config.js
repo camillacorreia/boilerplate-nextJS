@@ -1,5 +1,3 @@
-const { builtinModules } = require('node:module')
-
 module.exports = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
